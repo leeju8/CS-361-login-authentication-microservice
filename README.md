@@ -118,15 +118,6 @@ The account will be locked for 15 minutes after 5 failed login attempts.
 
 The service tracks failed login attempts per email address. After 5 consecutive failed attempts, the account is locked for 15 minutes. Successful login resets the attempt counter.
 
-# Features
-
-- **User Registration:** Create new user accounts with email and password
-- **User Login:** Authenticate with email and password, receive access token
-- **Invalid Login Handling:** Track failed attempts, lock account after 5 failures for 15 minutes
-- **Plain-text Passwords:** Passwords stored without hashing (for development/testing only)
-- **User Persistence:** User data persisted to `users.json` file
-- **Access Tokens:** JWT-based access tokens with 15-minute expiry
-
 # Data Storage
 
 User data is persisted to `users.json` in the format:
@@ -145,7 +136,4 @@ User data is persisted to `users.json` in the format:
   ]
 ]
 ```
-
-**Note:** The `users.json` file contains plain-text passwords and should be kept secure and not committed to version control. Add `users.json` to `.gitignore`.
-
 # UML Sequence Diagram
