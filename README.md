@@ -138,5 +138,5 @@ User data is persisted to `users.json` in the format:
 ```
 # UML Sequence Diagram
 
-<img width="544" height="377" alt="image" src="https://github.com/user-attachments/assets/1b142de5-4926-442c-b479-24e8d140231b" />
+<img width="545" height="389" alt="image" src="https://github.com/user-attachments/assets/1a7a6638-6d68-44b3-afec-53463e253c49" />
 
